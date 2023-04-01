@@ -18,3 +18,7 @@ docker ps
 # Sprawdzenie strony
 curl 127.0.0.1:81/
 ![image](https://user-images.githubusercontent.com/84729968/229314068-a2b2f088-3a5b-4b24-b98d-dd8ec6ccf2c1.png)
+
+# Pozostałe pliki
+W pliku default.conf znajduje się konfiguracja nginx
+Plik index.js jest to strona nodejs
