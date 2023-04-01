@@ -21,6 +21,9 @@ RUN npm install --save-dev babel-cli
 # Przekopiowanie plikow do kontenera
 COPY . .
 
+# Nasluchiwanie aplikacji na porcie 3000
+EXPOSE 3000
+
 # Uruchomienie naszej aplikacji
 # CMD ["npm", "start"]
 # Zbudowanie naszej aplikacji
